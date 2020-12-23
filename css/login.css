@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url(../img/bg-2.png);
+}
+.home{
+    width: 1140px;
+    
+}
+.home body{
+    background-image: url('/img/bg-2.png');
+}
+
+.home header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: hidden;
+    
+
+}
+
+.home header img{
+    float: left;
+}
+
+.home  header ul.lista1{
+float: left;
+padding: 10px;
+}
+
+.home  header ul.lista2{
+float: right;
+padding: 10px;
+}
+
+.home header li{
+padding: 10px;
+}
+
+/* ACÁ TERMINA EL HOME */
+
+p{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.login{
+    width: 400px;
+}
+.login  p{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 15px 0;
+    font-weight: bolder;
+    
+}
+.login  h3{
+    color: orangered;
+    font-size: 15px;
+}
+
+.login  h4{
+    padding: 3px 0;
+}
+.login main input{
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.login main label{
+    font-weight: bolder;
+}
+
+.login main h3{
+    margin-bottom:10px;
+}
+.login main input.checkbox{
+    margin-left: 160px;
+}
+button{
+    padding: 10px 27px;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: white;
+    font-size: 21px;
+    background-color: rgb(51, 137, 172);
+    border:rgb(51, 137, 172) ;
+}

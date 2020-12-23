@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url(../img/bg-2.png);
+}
+.home{
+    width: 1140px;
+    
+}
+.home body{
+    background-image: url('/img/bg-2.png');
+}
+
+.home header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: hidden;
+    
+
+}
+
+.home header img{
+    float: left;
+}
+
+.home  header ul.lista1{
+float: left;
+padding: 10px;
+}
+
+.home  header ul.lista2{
+float: right;
+padding: 10px;
+}
+
+.home header li{
+padding: 10px;
+}
+
+/* ACÁ TERMINA EL HOME */
+
+.formulario{
+    width: 600px;
+}
+textarea{
+    resize: none;
+    
+}
+.formulario form div p{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 15px 0;
+    font-weight: bolder;
+    
+}
+.formulario form div h3{
+    color: orangered;
+    font-size: 15px;
+}
+
+.formulario form div h4{
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.pais{
+    font-weight: bolder;
+    padding: 15px 0;
+    
+}
+textarea#opinion{
+    padding-top: 15px;
+}
+button{
+    padding: 10px 27px;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: white;
+    font-size: 21px;
+    background-color: rgb(51, 137, 172);
+    border:rgb(51, 137, 172) ;
+}
+.terminos{
+    margin: 20px 0;
+}

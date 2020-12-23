@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <img src="./img/logo.png" alt="">
+            <nav>
+                <ul class="lista1">
+                    <li><a href="">smartphones</a></li>
+                    <li><a href="">tablets</a></li>
+                    <li><a href="">computadoras</a></li>
+                </ul>
+                <ul class="lista2">
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="registro.html">registro</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="formulario">
+        <form action="">
+            <div>
+                <p>registrate</p>
+                <h4>Nombre</h4>
+                <textarea placeholder="Ingresá tu Nombre" name="comentario" id="comentario" cols="30"
+                    rows="1"></textarea>
+                <h3>Obligatorio.</h3>
+                <h4>Email</h4>
+                <input type="email" placeholder="email"> <label for="email"></label>
+                <h3>Obligatorio.</h3>
+                <h4>Contraseña</h4>
+                <input type="password" placeholder="password"> <label for="password"></label>
+                <h3>Obligatorio.</h3>
+                <h4 class="pais">País de nacimiento</h4>
+                <select name="" id="">
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="chi">Chile</option>
+                </select>
+                <h3>Obligatorio.</h3>
+                <h4>Género</h4>
+                <input type="radio" name="ambiente" value="3" id="ambiente3"><label for="ambiente3">Masculino</label>
+                <input type="radio" name="ambiente" value="2" id="ambiente2"><label for="ambiente2">femenino</label>
+                <input type="radio" name="ambiente" id="ambiente1" value="1"><label for="ambiente1">prefiero no
+                    decirlo</label>
+                <h4>Hobbies</h4>
+                <input type="checkbox" name="Hobbies" id="1"> <label for="1">Guitarra</label>
+                <input type="checkbox" name="Hobbies" id="2"> <label for="2">futbol</label>
+                <input type="checkbox" name="Hobbies" id="3">
+                <label for="3">Tenis</label>
+                <input type="checkbox" name="Hobbies" id="4">
+                <label for="4">Prógramacion</label>
+                <h4>Dejanos tus comentarios</h4>
+                <textarea name="opinion" id="comentario" cols="30" rows="10"></textarea> <br>
+                <input class="terminos" type="checkbox" id="1"> <label>Acepto los terminos y condiciones</label> <br>
+                <button>registrarme</button>
+                <button>cancelar</button>
+            </div>
+        </form>
+</body>
+
+</html>
